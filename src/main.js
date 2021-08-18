@@ -6,7 +6,7 @@ import axios from 'axios';
 import './index.css';
 
 axios.interceptors.request.use((config) => {
-	config.baseURL = 'http://http://127.0.0.1:8000/';
+	config.baseURL = 'http://localhost:8000/';
 	config.withCredentials = true;
 	return config;
 });

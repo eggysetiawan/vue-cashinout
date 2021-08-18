@@ -14,7 +14,11 @@
           lg:py-0
         "
       >
-        <router-link class="font-semibold uppercase" to="/">
+        <router-link
+          exact-active-class="bg-transparent"
+          class="font-semibold uppercase"
+          to="/"
+        >
           Cashinout
         </router-link>
         <button
